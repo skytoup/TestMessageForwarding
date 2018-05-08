@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="228 42 902 886" width="902pt" height="886pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> skytoup
+    <dc:date>2018-05-08 04:00:12 +0000</dc:date>
+  </metadata>
+  <defs>
+    <filter id="Shadow" filterUnits="userSpaceOnUse">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.308"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".5" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in"/>
+    </filter>
+    <font-face font-family="PingFang SC" font-size="10" panose-1="2 11 4 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-150" underline-thickness="58" slope="0" x-height="600" cap-height="860" ascent="1060.0021" descent="-340.0007" font-weight="500">
+      <font-face-src>
+        <font-face-name name="PingFangSC-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="10" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g>
+      <title>Layer 1</title>
+      <g>
+        <xl:use xl:href="#id1_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id20_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id19_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id22_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id23_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id24_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id26_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id28_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id40_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id46_Graphic" filter="url(#Shadow)"/>
+      </g>
+      <g id="id1_Graphic">
+        <path d="M 265.5625 43.5 L 422.1875 43.5 C 440.714 43.5 455.75 63.548 455.75 88.25 C 455.75 112.952 440.714 133 422.1875 133 L 265.5625 133 C 247.036 133 232 112.952 232 88.25 C 232 63.548 247.036 43.5 265.5625 43.5" fill="white"/>
+        <path d="M 265.5625 43.5 L 422.1875 43.5 C 440.714 43.5 455.75 63.548 455.75 88.25 C 455.75 112.952 440.714 133 422.1875 133 L 265.5625 133 C 247.036 133 232 112.952 232 88.25 C 232 63.548 247.036 43.5 265.5625 43.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(259.375 81.25)" fill="black">
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="31.215" y="11" textLength="106.57">对象调用不存在的方法A</tspan>
+        </text>
+      </g>
+      <g id="id20_Graphic">
+        <path d="M 343.875 357.5 L 455.75 402.25 L 343.875 447 L 232 402.25 Z" fill="white"/>
+        <path d="M 343.875 357.5 L 455.75 402.25 L 343.875 447 L 232 402.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(267.20625 394.355)" fill="black">
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="33.90625" y="11" textLength="90">返回的数据是否为空</tspan>
+        </text>
+      </g>
+      <g id="id19_Graphic">
+        <rect x="232" y="199" width="223.75" height="89.5" fill="white"/>
+        <rect x="232" y="199" width="223.75" height="89.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(237 223.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="81.875" y="11" textLength="50">原对象调用</tspan>
+          <tspan font-family="Helvetica" font-size="10" font-weight="500" x="42.402344" y="24" textLength="52.79785">forwardingT</tspan>
+          <tspan font-family="Helvetica" font-size="10" font-weight="500" x="94.0918" y="24" textLength="77.25586">argetForSelector:</tspan>
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="57.9834" y="37" textLength="70">返回一个可空的</tspan>
+          <tspan font-family="Helvetica" font-size="10" font-weight="500" x="127.9834" y="37" textLength="7.783203">id</tspan>
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="135.7666" y="37" textLength="20">类型</tspan>
+        </text>
+      </g>
+      <g id="id22_Graphic">
+        <rect x="232" y="516" width="223.75" height="89.5" fill="white"/>
+        <rect x="232" y="516" width="223.75" height="89.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(237 540.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="81.875" y="11" textLength="50">原对象调用</tspan>
+          <tspan font-family="Helvetica" font-size="10" font-weight="500" x="41.5625" y="24" textLength="130.625">methodSignatureForSelector:</tspan>
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="14.902344" y="37" textLength="70">返回一个可空的</tspan>
+          <tspan font-family="Helvetica" font-size="10" font-weight="500" x="84.90234" y="37" textLength="93.94531">NSMethodSignature*</tspan>
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="178.84766" y="37" textLength="20">类型</tspan>
+        </text>
+      </g>
+      <g id="id23_Graphic">
+        <rect x="567" y="357.5" width="223.75" height="89.5" fill="white"/>
+        <rect x="567" y="357.5" width="223.75" height="89.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(572 395.25)" fill="black">
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="43.59" y="11" textLength="126.57">尝试调用返回的对象的方法A</tspan>
+        </text>
+      </g>
+      <g id="id24_Graphic">
+        <path d="M 343.875 674.5 L 455.75 719.25 L 343.875 764 L 232 719.25 Z" fill="white"/>
+        <path d="M 343.875 674.5 L 455.75 719.25 L 343.875 764 L 232 719.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(267.20625 711.355)" fill="black">
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="33.90625" y="11" textLength="90">返回的数据是否为空</tspan>
+        </text>
+      </g>
+      <g id="id26_Graphic">
+        <path d="M 265.5625 833 L 422.1875 833 C 440.714 833 455.75 853.048 455.75 877.75 C 455.75 902.452 440.714 922.5 422.1875 922.5 L 265.5625 922.5 C 247.036 922.5 232 902.452 232 877.75 C 232 853.048 247.036 833 265.5625 833" fill="white"/>
+        <path d="M 265.5625 833 L 422.1875 833 C 440.714 833 455.75 853.048 455.75 877.75 C 455.75 902.452 440.714 922.5 422.1875 922.5 L 265.5625 922.5 C 247.036 922.5 232 902.452 232 877.75 C 232 853.048 247.036 833 265.5625 833" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(259.375 856.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="74.5" y="11" textLength="20">崩溃</tspan>
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="15.385" y="25" textLength="141.56">unrecognized selector sent to </tspan>
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="65.025" y="39" textLength="38.95">instance</tspan>
+        </text>
+      </g>
+      <g id="id28_Graphic">
+        <path d="M 600.5625 674.5 L 757.1875 674.5 C 775.714 674.5 790.75 694.548 790.75 719.25 C 790.75 743.952 775.714 764 757.1875 764 L 600.5625 764 C 582.036 764 567 743.952 567 719.25 C 567 694.548 582.036 674.5 600.5625 674.5" fill="white"/>
+        <path d="M 600.5625 674.5 L 757.1875 674.5 C 775.714 674.5 790.75 694.548 790.75 719.25 C 790.75 743.952 775.714 764 757.1875 764 L 600.5625 764 C 582.036 764 567 743.952 567 719.25 C 567 694.548 582.036 674.5 600.5625 674.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(594.375 705.25)" fill="black">
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="59.5" y="11" textLength="50">原对象调用</tspan>
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="41.605" y="25" textLength="85.79">forwardInvocation:</tspan>
+        </text>
+      </g>
+      <line x1="343.875" y1="133" x2="343.875" y2="189.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+      <line x1="343.875" y1="288.5" x2="343.875" y2="347.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+      <line x1="343.875" y1="447" x2="343.875" y2="506.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+      <line x1="343.875" y1="605.5" x2="343.875" y2="664.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+      <line x1="343.875" y1="764" x2="343.875" y2="823.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+      <line x1="456.25" y1="719.25" x2="557.1" y2="719.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+      <line x1="455.75" y1="402.25" x2="557.1" y2="402.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+      <rect x="326.375" y="455.2031" width="35" height="30" fill="white"/>
+      <text transform="translate(331.375 460.9791)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x=".204" y="15" textLength="24.592">yes</tspan>
+      </text>
+      <rect x="494.8633" y="387.25" width="29" height="30" fill="white"/>
+      <text transform="translate(499.8633 393.026)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x=".46" y="15" textLength="18.08">no</tspan>
+      </text>
+      <rect x="326.375" y="778.15625" width="35" height="30" fill="white"/>
+      <text transform="translate(331.375 783.93225)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x=".204" y="15" textLength="24.592">yes</tspan>
+      </text>
+      <rect x="487.4219" y="704.25" width="29" height="30" fill="white"/>
+      <text transform="translate(492.4219 710.026)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x=".46" y="15" textLength="18.08">no</tspan>
+      </text>
+      <g id="id40_Graphic">
+        <path d="M 1013.875 357.5 L 1125.75 402.25 L 1013.875 447 L 902 402.25 Z" fill="white"/>
+        <path d="M 1013.875 357.5 L 1125.75 402.25 L 1013.875 447 L 902 402.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(937.2062 394.355)" fill="black">
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="25.62125" y="11" textLength="106.57">返回的对象是否有方法A</tspan>
+        </text>
+      </g>
+      <line x1="790.75" y1="402.25" x2="892.1" y2="402.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+      <path d="M 1013.875 357.5 L 1013.875 345.6 L 1013.875 166.30469 L 355.775 166.30469 L 353.775 166.30469" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+      <rect x="999.375" y="269.27344" width="29" height="30" fill="white"/>
+      <text transform="translate(1004.375 275.04944)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x=".46" y="15" textLength="18.08">no</tspan>
+      </text>
+      <g id="id46_Graphic">
+        <path d="M 935.5625 516 L 1092.1875 516 C 1110.714 516 1125.75 536.048 1125.75 560.75 C 1125.75 585.452 1110.714 605.5 1092.1875 605.5 L 935.5625 605.5 C 917.036 605.5 902 585.452 902 560.75 C 902 536.048 917.036 516 935.5625 516" fill="white"/>
+        <path d="M 935.5625 516 L 1092.1875 516 C 1110.714 516 1125.75 536.048 1125.75 560.75 C 1125.75 585.452 1110.714 605.5 1092.1875 605.5 L 935.5625 605.5 C 917.036 605.5 902 585.452 902 560.75 C 902 536.048 917.036 516 935.5625 516" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(929.375 553.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="10" font-weight="500" x="31.215" y="11" textLength="106.57">调用返回的对象的方法A</tspan>
+        </text>
+      </g>
+      <line x1="1013.875" y1="447" x2="1013.875" y2="506.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+      <rect x="996.375" y="461.46875" width="35" height="30" fill="white"/>
+      <text transform="translate(1001.375 467.24475)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x=".204" y="15" textLength="24.592">yes</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
